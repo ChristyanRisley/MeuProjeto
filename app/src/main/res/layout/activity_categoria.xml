@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080"
+    tools:context=".ActivityCategoria">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/top">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/ivPratos"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+
+        android:src="@drawable/menu">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnPratos"
+        android:layout_width="235dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btnperson"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Pratos "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivBebidas"
+        android:layout_width="225dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/bebida"
+
+        />
+
+    <Button
+        android:id="@+id/btnBebidas"
+        android:layout_width="235dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btnperson"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Bebidas "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>
